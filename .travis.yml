@@ -5,4 +5,3 @@ services:
 
 before_install:
 - docker run --name my-postgres -e POSTGRES_PASSWORD=secret -p 5433:5432 -d postgres
-
