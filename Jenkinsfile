@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        ARTIFACT_ID = "juan2203/backendpraxis2022:${env.BUILD_ID}"
+        ARTIFACT_ID = "juan2203/backendpraxis2022}"
     }
 
     stages {
