@@ -27,7 +27,7 @@ pipeline {
         stage("Publish Docker Image in DockerHub"){
             steps {
                 script {
-                    docker.withRegistry("", "dockerHub") {
+                    docker.withRegistry("", "faab5197-7810-4d2a-8b55-91268220ff2f") {
                         latestImage.push()
                     }
                 }
