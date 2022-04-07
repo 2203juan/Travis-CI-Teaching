@@ -6,14 +6,14 @@ pipeline {
     }
 
     environment {
-        ARTIFACT_ID = "juan2203/backend-praxis2022:${env.BUILD_ID}"
+        ARTIFACT_ID = "juan2203/backendpraxis2022:${env.BUILD_ID}"
     }
 
     stages {
         stage("Build Docker Image"){
             steps{
                 script {
-                    latestImage = docker.build("juan2203/${env.ARTIFACT_ID}:latest")
+                    latestImage = docker.build("${env.ARTIFACT_ID}:latest")
                 }
             }
         }
