@@ -1,3 +1,5 @@
+docker build -t backend_img .
+
 docker run --name my-postgres -e POSTGRES_PASSWORD=secret -p 5432:5432 -d postgres
 
 
