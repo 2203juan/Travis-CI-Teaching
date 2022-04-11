@@ -10,7 +10,7 @@ pipeline {
     }
 
     stages {
-        stage("Build Docker Image"){
+        stage("Build Backend Docker Image"){
             steps{
                 script {
                     latestImage = docker.build("${env.ARTIFACT_ID}:latest")
