@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-gildedrose,com.perficient.praxis.gildedrose.config,WebConfig,0,8,0,0,0,3,0,2,0,2
+gildedrose,com.perficient.praxis.gildedrose.config,WebConfig,0,35,0,0,0,3,0,2,0,2
 gildedrose,com.perficient.praxis.gildedrose,GildedroseApplication,5,3,0,0,2,1,1,1,1,1
 gildedrose,com.perficient.praxis.gildedrose.business,ItemService,192,114,28,8,23,18,21,5,4,4
 gildedrose,com.perficient.praxis.gildedrose.model,Item.Type,0,27,0,0,0,5,0,1,0,1
